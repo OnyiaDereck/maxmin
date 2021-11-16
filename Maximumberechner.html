@@ -12,7 +12,7 @@
 				
 				let vZahl1 = document.getElementById("Zahl1").value;
 				let vZahl2 = document.getElementById("Zahl2").value;
-				let Ausgabe = "Maximung: " + fMax (vZahl1,vZahl2)
+				let Ausgabe = "Maximung: " + fMax (vZahl1,vZahl2) + "  Minimum: " + fMin (vZahl1,vZahl2)
 	            document.getElementById("idAusgabeHtml").innerHTML = Ausgabe;
 				
 				}
@@ -20,6 +20,20 @@
 					function fMax(a,b) {
 						
 						if (a>b) {return a
+
+		
+
+} else { return  b
+
+
+
+}
+				}
+
+
+				function fMin(a,b) {
+						
+						if (b>a) {return a
 
 		
 
